@@ -1,0 +1,14 @@
+janeiro = float(input())
+fevereiro = float(input())
+março = float(input())
+abril = float(input())
+maio = float(input())
+junho = float(input())
+soma = janeiro + fevereiro + março + abril + maio + junho
+media = (janeiro + fevereiro + março + abril + maio + junho) / 6
+if media > 5000:
+    print("PARABENS VOÇE VAI GANHAR 10% DE AUMENTO")
+else:
+    print("PARABENS VOÇE IRA GANHAR 3% DE AUMENTO")
+print("PARABENS VOÇE VENDEU O TOTAL DE:" + str(soma) + ".", end='', flush=True)
+print("PARABENS CONTINUE ASSIM")
